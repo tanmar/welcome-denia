@@ -1,24 +1,69 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { LangProvider } from "@/content/lang";
+import { Nav } from "@/components/site/Nav";
+import {
+  About,
+  Contact,
+  Faq,
+  Footer,
+  Hero,
+  HowItWorks,
+  MobileBar,
+  ServiceArea,
+  Services,
+  Testimonials,
+  Transparency,
+} from "@/components/site/Sections";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+const title = "Gerard — Cuidado de propiedades en Dénia y la Marina Alta";
+const description =
+  "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe, Altea y Benidorm. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Gerard — Property Care & Local Assistance",
+          description,
+          areaServed: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
+          knowsLanguage: ["es", "en", "de"],
+          address: { "@type": "PostalAddress", addressLocality: "Dénia", addressCountry: "ES" },
+        }),
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <LangProvider>
+      <Nav />
+      <main>
+        <Hero />
+        <Services />
+        <About />
+        <Transparency />
+        <HowItWorks />
+        <ServiceArea />
+        <Testimonials />
+        <Faq />
+        <Contact />
+      </main>
+      <Footer />
+      <MobileBar />
+    </LangProvider>
   );
 }
