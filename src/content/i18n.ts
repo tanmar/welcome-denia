@@ -7,17 +7,17 @@ export const dictionaries = {
   es: {
     htmlLang: "es",
     meta: {
-      title: "Gerard — Cuidado de propiedades en Dénia y la Marina Alta",
+      title: "WelcomeDenia — Cuidado de propiedades en Dénia y la Marina Alta",
       description:
         "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe, Altea y Benidorm. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.",
     },
     nav: {
       services: "Servicios",
-      about: "Sobre Gerard",
+      about: "Sobre nosotros",
       how: "Cómo funciona",
       area: "Zona de servicio",
       contact: "Contacto",
-      cta: "Hablar con Gerard",
+      cta: "Contactar",
       menu: "Abrir menú",
       close: "Cerrar menú",
       language: "Idioma",
@@ -26,8 +26,8 @@ export const dictionaries = {
     hero: {
       eyebrow: "Dénia · Marina Alta",
       title: "Su casa en Dénia, cuidada mientras usted no está.",
-      lead: "Desde revisiones periódicas y llegadas de huéspedes hasta pequeñas reparaciones y gestiones del día a día: Gerard se ocupa de los detalles y le informa con claridad en su idioma.",
-      primary: "Hablar con Gerard",
+      lead: "Desde revisiones periódicas y llegadas de huéspedes hasta pequeñas reparaciones y gestiones del día a día: nos ocupamos de los detalles y le informamos con claridad en su idioma.",
+      primary: "Contactar",
       secondary: "Ver servicios",
       trust: [
         "10 años de experiencia",
@@ -35,12 +35,12 @@ export const dictionaries = {
         "Atención personal",
         "Actualizaciones con fotos y vídeo",
       ],
-      portraitPlaceholder: "Espacio reservado para la foto de Gerard",
+      portraitPlaceholder: "Su equipo local en Dénia",
       imageAlt: "Terraza de una casa mediterránea con vistas al mar en Dénia",
     },
     services: {
       eyebrow: "Servicios",
-      title: "Lo que Gerard hace por usted",
+      title: "Lo que hacemos por usted",
       lead: "El cuidado de la propiedad es el eje principal. La asistencia local complementa ese trabajo cuando hace falta.",
       groups: [
         {
@@ -65,7 +65,7 @@ export const dictionaries = {
             "Actualizaciones con fotos y vídeo",
             "Análisis de costes y explicaciones claras",
           ],
-          note: "Gerard supervisa y documenta la obra. No ejecuta trabajos especializados ni actúa como electricista, arquitecto o abogado.",
+          note: "Supervisamos y documentamos la obra. No ejecutamos trabajos especializados ni actuamos como electricista, arquitecto o abogado.",
         },
         {
           tag: "Complementario",
@@ -80,29 +80,29 @@ export const dictionaries = {
         },
       ],
       personal:
-        "Gerard realiza personalmente los servicios de cuidado de la propiedad y la supervisión de reformas.",
+        "Realizamos directamente los servicios de cuidado de la propiedad y la supervisión de reformas.",
     },
     about: {
-      eyebrow: "Sobre Gerard",
-      title: "Una persona de confianza, no un número de expediente",
+      eyebrow: "Sobre nosotros",
+      title: "Un contacto de confianza, no un número de expediente",
       paragraphs: [
-        "«Llevo diez años trabajando en el mantenimiento de viviendas en Dénia, con experiencia en una empresa de referencia de la zona. Conozco las casas de aquí: el salitre, las persianas, las piscinas en invierno y lo que se estropea cuando nadie mira.»",
-        "«También he acompañado durante años a residentes internacionales de habla alemana en la Marina Alta: orientación práctica, trámites y comunicación entre culturas. Hablo español, inglés y alemán a nivel nativo, así que hablamos de su casa sin intermediarios.»",
-        "«Trabajo de forma ordenada y respondo personalmente. Usted tiene un único interlocutor que entiende tanto la vivienda como lo que usted necesita.»",
+        "«Llevamos diez años trabajando en el mantenimiento de viviendas en Dénia. Conocemos las casas de aquí: el salitre, las persianas, las piscinas en invierno y lo que se estropea cuando nadie mira.»",
+        "«También acompañamos a residentes internacionales en la Marina Alta: orientación práctica, trámites y comunicación entre culturas. Hablamos español, inglés y alemán a nivel nativo, así que hablamos de su casa sin intermediarios.»",
+        "«Trabajamos de forma ordenada y respondemos personalmente. Usted tiene un único interlocutor que entiende tanto la vivienda como lo que usted necesita.»",
       ],
       facts: [
         "10 años de experiencia",
-        "Mantenimiento en una empresa de referencia en Dénia",
+        "Conocimiento local de Dénia",
         "Trabajo fiable y organizado",
         "Experiencia con residentes internacionales",
         "ES · EN · DE a nivel nativo",
       ],
-      portraitNote: "Foto pendiente de aportar",
+      portraitNote: "WelcomeDenia · Dénia",
     },
     transparency: {
       eyebrow: "Transparencia",
       title: "Sepa qué ocurre, esté donde esté",
-      lead: "Usted decide el nivel de detalle. Gerard documenta lo que hace y lo explica sin tecnicismos.",
+      lead: "Usted decide el nivel de detalle. Documentamos lo que hacemos y lo explicamos sin tecnicismos.",
       bullets: [
         "Informes claros",
         "Fotos y vídeos cortos",
@@ -133,7 +133,7 @@ export const dictionaries = {
       title: "Empezar es sencillo",
       steps: [
         {
-          title: "Cuéntele a Gerard lo que necesita",
+          title: "Cuéntenos lo que necesita",
           text: "Su vivienda, su situación o la gestión concreta con la que necesita ayuda.",
         },
         {
@@ -142,16 +142,16 @@ export const dictionaries = {
         },
         {
           title: "Recibe atención personal y actualizaciones claras",
-          text: "Gerard se ocupa y le mantiene informado en su idioma.",
+          text: "Nos ocupamos y le mantenemos informado en su idioma.",
         },
       ],
     },
     area: {
       eyebrow: "Zona de servicio",
       title: "Con base en Dénia, cerca de su casa",
-      lead: "Gerard trabaja en Dénia y la Marina Alta, además de localidades costeras cercanas. Si su vivienda está cerca de esta zona, pregúntele directamente.",
+      lead: "Trabajamos en Dénia y la Marina Alta, además de localidades costeras cercanas. Si su vivienda está cerca de esta zona, pregúntenos directamente.",
       places: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
-      ask: "¿Su localidad no aparece? Pregunte y Gerard le dirá con sinceridad si puede atenderle.",
+      ask: "¿Su localidad no aparece? Pregunte y le diremos con sinceridad si podemos atenderle.",
       imageAlt: "Costa de la Marina Alta con el Montgó al fondo",
     },
     testimonials: {
@@ -170,7 +170,7 @@ export const dictionaries = {
       items: [
         {
           q: "¿Puede cuidar mi casa mientras estoy en el extranjero?",
-          a: "Sí. Gerard realiza revisiones periódicas, custodia de llaves, limpieza, pequeñas reparaciones y cuidado de piscina y jardín, con la frecuencia que acordemos.",
+          a: "Sí. Realizamos revisiones periódicas, custodia de llaves, limpieza, pequeñas reparaciones y cuidado de piscina y jardín, con la frecuencia que acordemos.",
         },
         {
           q: "¿Puede preparar la vivienda para huéspedes de vacaciones?",
@@ -202,14 +202,14 @@ export const dictionaries = {
         },
         {
           q: "¿Cómo puedo hablar de precios?",
-          a: "El alcance y el precio se acuerdan de forma individual según su vivienda y lo que necesite. Escriba a Gerard y lo comentan sin compromiso.",
+          a: "El alcance y el precio se acuerdan de forma individual según su vivienda y lo que necesite. Escríbanos y lo comentamos sin compromiso.",
         },
       ],
     },
     contact: {
       eyebrow: "Contacto",
       title: "Hablemos de su casa y de lo que necesita.",
-      lead: "Cuéntele a Gerard su situación. Le responderá personalmente en español, inglés o alemán.",
+      lead: "Cuéntenos su situación. Le responderemos personalmente en español, inglés o alemán.",
       whatsapp: "WhatsApp",
       phone: "Teléfono",
       email: "Correo electrónico",
@@ -235,7 +235,7 @@ export const dictionaries = {
         required: "Este campo es obligatorio",
         invalidContact: "Indique un correo electrónico o un teléfono válidos",
         notConfigured:
-          "El envío del formulario aún no está configurado. Por ahora, escriba a Gerard por WhatsApp o correo electrónico.",
+          "El envío del formulario aún no está configurado. Por ahora, escríbanos por WhatsApp o correo electrónico.",
       },
     },
     footer: {
@@ -252,17 +252,17 @@ export const dictionaries = {
   en: {
     htmlLang: "en",
     meta: {
-      title: "Gerard — Property care in Dénia and the Marina Alta",
+      title: "WelcomeDenia — Property care in Dénia and the Marina Alta",
       description:
         "Property care and local assistance in Dénia, Marina Alta, Calpe, Altea and Benidorm. Checks, keyholding, maintenance and practical help, with clear updates in Spanish, English or German.",
     },
     nav: {
       services: "Services",
-      about: "About Gerard",
+      about: "About us",
       how: "How it works",
       area: "Service area",
       contact: "Contact",
-      cta: "Talk to Gerard",
+      cta: "Get in touch",
       menu: "Open menu",
       close: "Close menu",
       language: "Language",
@@ -271,8 +271,8 @@ export const dictionaries = {
     hero: {
       eyebrow: "Dénia · Marina Alta",
       title: "Your home in Dénia, cared for while you're away.",
-      lead: "From regular property checks and guest arrivals to repairs and everyday local matters, Gerard takes care of the details—with clear updates in your language.",
-      primary: "Talk to Gerard",
+      lead: "From regular property checks and guest arrivals to repairs and everyday local matters, we take care of the details—with clear updates in your language.",
+      primary: "Get in touch",
       secondary: "Explore services",
       trust: [
         "10 years of experience",
@@ -280,12 +280,12 @@ export const dictionaries = {
         "Personal attention",
         "Photo and video updates",
       ],
-      portraitPlaceholder: "Placeholder for Gerard's photo",
+      portraitPlaceholder: "Your local team in Dénia",
       imageAlt: "Terrace of a Mediterranean home overlooking the sea in Dénia",
     },
     services: {
       eyebrow: "Services",
-      title: "What Gerard does for you",
+      title: "What we do for you",
       lead: "Property care is the core of the work. Local assistance complements it when you need it.",
       groups: [
         {
@@ -310,7 +310,7 @@ export const dictionaries = {
             "Photo and video updates",
             "Cost analysis and clear explanations",
           ],
-          note: "Gerard supervises and documents the work. He does not carry out specialist renovation trades and is not an electrician, architect or lawyer.",
+          note: "We supervise and document the work. We do not carry out specialist renovation trades and are not electricians, architect or lawyer.",
         },
         {
           tag: "Complementary",
@@ -325,29 +325,29 @@ export const dictionaries = {
         },
       ],
       personal:
-        "Gerard personally carries out the property care services and the renovation supervision.",
+        "We directly carry out the property care services and the renovation supervision.",
     },
     about: {
-      eyebrow: "About Gerard",
-      title: "A person you can trust, not a case number",
+      eyebrow: "About us",
+      title: "A contact you can trust, not a case number",
       paragraphs: [
-        "\"I've spent ten years maintaining homes in Dénia, including work for a leading company here. I know the houses in this area: the salt air, the shutters, the pools in winter, and what quietly goes wrong when nobody is looking.\"",
-        "\"I've also spent years helping German-speaking international residents in the Marina Alta with practical guidance, paperwork and communication between cultures. I speak Spanish, English and German at native level, so we can talk about your home directly.\"",
-        "\"I work in an organised way and answer personally. You have one point of contact who understands both the property and what you need.\"",
+        "\"We've spent ten years maintaining homes in Dénia. We know the houses in this area: the salt air, the shutters, the pools in winter, and what quietly goes wrong when nobody is looking.\"",
+        "\"We also help international residents in the Marina Alta with practical guidance, paperwork and communication between cultures. We speak Spanish, English and German at native level, so we can talk about your home directly.\"",
+        "\"We work in an organised way and answer personally. You have one point of contact who understands both the property and what you need.\"",
       ],
       facts: [
         "10 years of experience",
-        "Maintenance experience with a leading company in Dénia",
+        "Deep local knowledge of Dénia",
         "Reliable, organised work",
         "Experience supporting international residents",
         "Native-level ES · EN · DE",
       ],
-      portraitNote: "Photo to be supplied",
+      portraitNote: "WelcomeDenia · Dénia",
     },
     transparency: {
       eyebrow: "Transparency",
       title: "Know what's happening, wherever you are.",
-      lead: "You decide how much detail you want. Gerard documents the work and explains it in plain language.",
+      lead: "You decide how much detail you want. We document the work and explains it in plain language.",
       bullets: ["Clear reports", "Photos and short videos", "Progress updates", "Cost analysis"],
       sampleLabel: "Illustrative example — not a real client report",
       sample: {
@@ -373,7 +373,7 @@ export const dictionaries = {
       title: "Getting started is simple",
       steps: [
         {
-          title: "Tell Gerard about your property or the help you need",
+          title: "Tell us about your property or the help you need",
           text: "Your home, your situation, or the specific task you'd like handled.",
         },
         {
@@ -382,16 +382,16 @@ export const dictionaries = {
         },
         {
           title: "Receive personal support and clear updates",
-          text: "Gerard takes care of it and keeps you informed in your language.",
+          text: "We take care of it and keep you informed in your language.",
         },
       ],
     },
     area: {
       eyebrow: "Service area",
       title: "Based in Dénia, close to your home",
-      lead: "Gerard works in Dénia and the Marina Alta, plus nearby coastal locations. If your property is close to this area, just ask.",
+      lead: "We work in Dénia and the Marina Alta, plus nearby coastal locations. If your property is close to this area, just ask.",
       places: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
-      ask: "Not on the list? Ask, and Gerard will tell you honestly whether he can help.",
+      ask: "Not on the list? Ask, and we'll tell you honestly whether we can help.",
       imageAlt: "Marina Alta coastline with the Montgó in the distance",
     },
     testimonials: {
@@ -410,7 +410,7 @@ export const dictionaries = {
       items: [
         {
           q: "Can you look after my home while I am abroad?",
-          a: "Yes. Gerard handles regular inspections, keyholding, cleaning, minor repairs and pool and garden care, at whatever frequency you agree.",
+          a: "Yes. We handle regular inspections, keyholding, cleaning, minor repairs and pool and garden care, at whatever frequency you agree.",
         },
         {
           q: "Can you prepare my property for holiday guests?",
@@ -436,14 +436,14 @@ export const dictionaries = {
         },
         {
           q: "How can I discuss pricing?",
-          a: "Scope and pricing are agreed individually, based on your property and what you need. Message Gerard and you can talk it through with no obligation.",
+          a: "Scope and pricing are agreed individually, based on your property and what you need. Message us and we can talk it through with no obligation.",
         },
       ],
     },
     contact: {
       eyebrow: "Contact",
       title: "Let's talk about your home—and what you need.",
-      lead: "Tell Gerard about your situation. He replies personally in Spanish, English or German.",
+      lead: "Tell us about your situation. We reply personally in Spanish, English or German.",
       whatsapp: "WhatsApp",
       phone: "Telephone",
       email: "Email",
@@ -469,7 +469,7 @@ export const dictionaries = {
         required: "This field is required",
         invalidContact: "Please enter a valid email address or phone number",
         notConfigured:
-          "Form delivery is not configured yet. For now, please reach Gerard by WhatsApp or email.",
+          "Form delivery is not configured yet. For now, please reach us by WhatsApp or email.",
       },
     },
     footer: {
@@ -485,17 +485,17 @@ export const dictionaries = {
   de: {
     htmlLang: "de",
     meta: {
-      title: "Gerard — Immobilienbetreuung in Dénia und der Marina Alta",
+      title: "WelcomeDenia — Immobilienbetreuung in Dénia und der Marina Alta",
       description:
         "Hausbetreuung und Alltagshilfe in Dénia, Marina Alta, Calpe, Altea und Benidorm. Kontrollen, Schlüsselservice, Instandhaltung und praktische Unterstützung – mit klarer Kommunikation auf Spanisch, Englisch und Deutsch.",
     },
     nav: {
       services: "Leistungen",
-      about: "Über Gerard",
+      about: "Über uns",
       how: "Ablauf",
       area: "Einsatzgebiet",
       contact: "Kontakt",
-      cta: "Mit Gerard sprechen",
+      cta: "Kontakt aufnehmen",
       menu: "Menü öffnen",
       close: "Menü schließen",
       language: "Sprache",
@@ -504,8 +504,8 @@ export const dictionaries = {
     hero: {
       eyebrow: "Dénia · Marina Alta",
       title: "Ihr Haus in Dénia – betreut, während Sie weg sind.",
-      lead: "Von regelmäßigen Kontrollen und Gästeankünften bis zu Reparaturen und alltäglichen Angelegenheiten vor Ort: Gerard kümmert sich um die Details – mit klaren Rückmeldungen in Ihrer Sprache.",
-      primary: "Mit Gerard sprechen",
+      lead: "Von regelmäßigen Kontrollen und Gästeankünften bis zu Reparaturen und alltäglichen Angelegenheiten vor Ort: wir kümmern uns um die Details – mit klaren Rückmeldungen in Ihrer Sprache.",
+      primary: "Kontakt aufnehmen",
       secondary: "Leistungen ansehen",
       trust: [
         "10 Jahre Erfahrung",
@@ -513,12 +513,12 @@ export const dictionaries = {
         "Persönliche Betreuung",
         "Updates mit Fotos und Video",
       ],
-      portraitPlaceholder: "Platzhalter für Gerards Foto",
+      portraitPlaceholder: "Ihr lokales Team in Dénia",
       imageAlt: "Terrasse eines mediterranen Hauses mit Meerblick in Dénia",
     },
     services: {
       eyebrow: "Leistungen",
-      title: "Was Gerard für Sie übernimmt",
+      title: "Was wir für Sie übernehmen",
       lead: "Die Hausbetreuung steht im Mittelpunkt. Die Alltagshilfe ergänzt sie dort, wo Sie sie brauchen.",
       groups: [
         {
@@ -543,7 +543,7 @@ export const dictionaries = {
             "Updates mit Fotos und Video",
             "Kostenanalyse und verständliche Erklärungen",
           ],
-          note: "Gerard begleitet und dokumentiert die Arbeiten. Er führt keine Fachgewerke aus und ist weder Elektriker noch Architekt oder Anwalt.",
+          note: "Wir begleiten und dokumentieren die Arbeiten. Wir führen keine Fachgewerke aus und sind weder Elektriker noch Architekt oder Anwalt.",
         },
         {
           tag: "Ergänzend",
@@ -558,29 +558,29 @@ export const dictionaries = {
         },
       ],
       personal:
-        "Gerard führt die Betreuungsleistungen und die Renovierungsbegleitung persönlich aus.",
+        "Wir führen die Betreuungsleistungen und die Renovierungsbegleitung selbst aus.",
     },
     about: {
-      eyebrow: "Über Gerard",
-      title: "Ein Mensch, dem Sie vertrauen können – keine Aktennummer",
+      eyebrow: "Über uns",
+      title: "Ein Ansprechpartner, dem Sie vertrauen können – keine Aktennummer",
       paragraphs: [
-        "„Seit zehn Jahren kümmere ich mich um die Instandhaltung von Häusern in Dénia, unter anderem mit Erfahrung bei einem führenden Unternehmen hier vor Ort. Ich kenne die Häuser dieser Region: die salzige Luft, die Fensterläden, die Pools im Winter – und das, was still kaputtgeht, wenn niemand hinsieht.“",
-        "„Außerdem habe ich deutschsprachige Residenten in der Marina Alta jahrelang praktisch begleitet: Orientierung, Formalitäten und Verständigung zwischen den Kulturen. Ich spreche Spanisch, Englisch und Deutsch auf Muttersprachniveau – wir sprechen also direkt über Ihr Haus.“",
-        "„Ich arbeite strukturiert und antworte persönlich. Sie haben einen Ansprechpartner, der sowohl die Immobilie als auch Ihre Anliegen versteht.“",
+        "„Seit zehn Jahren kümmern wir uns um die Instandhaltung von Häusern in Dénia. Wir kennen die Häuser dieser Region: die salzige Luft, die Fensterläden, die Pools im Winter – und das, was still kaputtgeht, wenn niemand hinsieht.“",
+        "„Außerdem begleiten wir internationale Residenten in der Marina Alta praktisch: Orientierung, Formalitäten und Verständigung zwischen den Kulturen. Wir sprechen Spanisch, Englisch und Deutsch auf Muttersprachniveau – wir sprechen also direkt über Ihr Haus.“",
+        "„Wir arbeiten strukturiert und antworten persönlich. Sie haben einen Ansprechpartner, der sowohl die Immobilie als auch Ihre Anliegen versteht.“",
       ],
       facts: [
         "10 Jahre Erfahrung",
-        "Instandhaltungserfahrung bei einem führenden Unternehmen in Dénia",
+        "Fundierte Ortskenntnis in Dénia",
         "Zuverlässige, organisierte Arbeit",
         "Erfahrung mit internationalen Residenten",
         "ES · EN · DE auf Muttersprachniveau",
       ],
-      portraitNote: "Foto wird noch ergänzt",
+      portraitNote: "WelcomeDenia · Dénia",
     },
     transparency: {
       eyebrow: "Transparenz",
       title: "Wissen, was passiert – wo immer Sie sind.",
-      lead: "Sie bestimmen, wie ausführlich es sein soll. Gerard dokumentiert seine Arbeit und erklärt sie verständlich.",
+      lead: "Sie bestimmen, wie ausführlich es sein soll. Wir dokumentieren unsere Arbeit und erklärt sie verständlich.",
       bullets: ["Klare Berichte", "Fotos und kurze Videos", "Fortschrittsupdates", "Kostenanalyse"],
       sampleLabel: "Beispielhafte Darstellung – kein echter Kundenbericht",
       sample: {
@@ -606,7 +606,7 @@ export const dictionaries = {
       title: "Der Einstieg ist unkompliziert",
       steps: [
         {
-          title: "Erzählen Sie Gerard von Ihrem Haus oder Ihrem Anliegen",
+          title: "Erzählen Sie uns von Ihrem Haus oder Ihrem Anliegen",
           text: "Ihre Immobilie, Ihre Situation oder die konkrete Aufgabe, bei der Sie Unterstützung brauchen.",
         },
         {
@@ -615,16 +615,16 @@ export const dictionaries = {
         },
         {
           title: "Persönliche Betreuung und klare Updates erhalten",
-          text: "Gerard kümmert sich und hält Sie in Ihrer Sprache auf dem Laufenden.",
+          text: "Wir kümmern uns und halten Sie in Ihrer Sprache auf dem Laufenden.",
         },
       ],
     },
     area: {
       eyebrow: "Einsatzgebiet",
       title: "Basis in Dénia, nah an Ihrem Haus",
-      lead: "Gerard arbeitet in Dénia und der Marina Alta sowie in nahegelegenen Küstenorten. Liegt Ihr Haus in der Nähe, fragen Sie einfach nach.",
+      lead: "Wir arbeiten in Dénia und der Marina Alta sowie in nahegelegenen Küstenorten. Liegt Ihr Haus in der Nähe, fragen Sie einfach nach.",
       places: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
-      ask: "Ihr Ort ist nicht dabei? Fragen Sie nach – Gerard sagt Ihnen ehrlich, ob er helfen kann.",
+      ask: "Ihr Ort ist nicht dabei? Fragen Sie nach – wir sagen Ihnen ehrlich, ob wir helfen können.",
       imageAlt: "Küste der Marina Alta mit dem Montgó im Hintergrund",
     },
     testimonials: {
@@ -643,7 +643,7 @@ export const dictionaries = {
       items: [
         {
           q: "Können Sie mein Haus betreuen, während ich im Ausland bin?",
-          a: "Ja. Gerard übernimmt regelmäßige Kontrollen, Schlüsselverwahrung, Reinigung, kleine Reparaturen sowie Pool- und Gartenpflege – in der vereinbarten Häufigkeit.",
+          a: "Ja. Wir übernehmen regelmäßige Kontrollen, Schlüsselverwahrung, Reinigung, kleine Reparaturen sowie Pool- und Gartenpflege – in der vereinbarten Häufigkeit.",
         },
         {
           q: "Können Sie mein Haus für Feriengäste vorbereiten?",
@@ -675,14 +675,14 @@ export const dictionaries = {
         },
         {
           q: "Wie kann ich über Preise sprechen?",
-          a: "Umfang und Preis werden individuell vereinbart – je nach Haus und Bedarf. Schreiben Sie Gerard, dann besprechen Sie es unverbindlich.",
+          a: "Umfang und Preis werden individuell vereinbart – je nach Haus und Bedarf. Schreiben Sie uns, dann besprechen wir es unverbindlich.",
         },
       ],
     },
     contact: {
       eyebrow: "Kontakt",
       title: "Sprechen wir über Ihr Haus – und darüber, was Sie brauchen.",
-      lead: "Erzählen Sie Gerard von Ihrer Situation. Er antwortet persönlich auf Spanisch, Englisch oder Deutsch.",
+      lead: "Erzählen Sie uns von Ihrer Situation. Wir antworten persönlich auf Spanisch, Englisch oder Deutsch.",
       whatsapp: "WhatsApp",
       phone: "Telefon",
       email: "E-Mail",
@@ -708,7 +708,7 @@ export const dictionaries = {
         required: "Dieses Feld ist erforderlich",
         invalidContact: "Bitte geben Sie eine gültige E-Mail-Adresse oder Telefonnummer an",
         notConfigured:
-          "Der Formularversand ist noch nicht eingerichtet. Bitte erreichen Sie Gerard vorerst per WhatsApp oder E-Mail.",
+          "Der Formularversand ist noch nicht eingerichtet. Bitte erreichen Sie uns vorerst per WhatsApp oder E-Mail.",
       },
     },
     footer: {

@@ -5,7 +5,7 @@ type Ctx = { lang: Lang; setLang: (l: Lang) => void; t: Dict };
 
 const LangContext = createContext<Ctx | null>(null);
 
-const STORAGE_KEY = "gerard.lang";
+const STORAGE_KEY = "welcomedenia.lang";
 
 function detect(): Lang {
   if (typeof window === "undefined") return "es";
