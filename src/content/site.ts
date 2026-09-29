@@ -20,6 +20,10 @@ export const site = {
   portrait: "" as string,
 } as const;
 
-export const phoneHref = site.phone ? `tel:${site.phone.replace(/\s/g, "")}` : undefined;
-export const waHref = site.whatsapp ? `https://wa.me/${site.whatsapp}` : undefined;
-export const mailHref = site.email ? `mailto:${site.email}` : undefined;
+const phone: string = site.phone;
+const whatsapp: string = site.whatsapp;
+const email: string = site.email;
+
+export const phoneHref = phone ? `tel:${phone.replace(/\s/g, "")}` : undefined;
+export const waHref = whatsapp ? `https://wa.me/${whatsapp}` : undefined;
+export const mailHref = email ? `mailto:${email}` : undefined;
