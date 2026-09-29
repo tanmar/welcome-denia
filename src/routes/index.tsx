@@ -15,7 +15,7 @@ import {
   Transparency,
 } from "@/components/site/Sections";
 
-const title = "Gerard — Cuidado de propiedades en Dénia y la Marina Alta";
+const title = "WelcomeDenia — Cuidado de propiedades en Dénia y la Marina Alta";
 const description =
   "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe, Altea y Benidorm. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.";
 
@@ -35,7 +35,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Gerard — Property Care & Local Assistance",
+          name: "WelcomeDenia — Property Care & Local Assistance",
           description,
           areaServed: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
           knowsLanguage: ["es", "en", "de"],

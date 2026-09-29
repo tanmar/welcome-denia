@@ -3,7 +3,7 @@
  * Replace the placeholder contact details before launch.
  */
 export const site = {
-  brand: "Gerard",
+  brand: "WelcomeDenia",
   brandSuffix: {
     es: "Cuidado de Propiedades & Asistencia Local",
     en: "Property Care & Local Assistance",
@@ -16,7 +16,7 @@ export const site = {
   base: "Dénia, Alicante",
   // Flip to true once verified reviews exist.
   showTestimonials: false,
-  // Portrait of Gerard — add the real photo and set this path.
+  // Optional team photo path.
   portrait: "" as string,
 } as const;
 
