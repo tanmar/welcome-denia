@@ -186,11 +186,11 @@ export const dictionaries = {
         },
         {
           q: "¿Puede supervisar una reforma?",
-          a: "Puede hacer seguimiento en obra, controlar el avance, enviar fotos y vídeo y analizar los costes. La ejecución especializada corre a cargo de los profesionales correspondientes.",
+          a: "Hacemos seguimiento en obra, controlamos el avance, enviamos fotos y vídeo y analizamos los costes. La ejecución especializada corre a cargo de los profesionales correspondientes.",
         },
         {
           q: "¿Ayuda con trámites y suministros?",
-          a: "Ofrece apoyo práctico con trámites, incluidas citas y documentación relacionadas con el NIE, y con la comunicación con suministradores como Iberdrola. Es acompañamiento práctico, sin representación oficial ni garantía de resultados.",
+          a: "Ofrecemos apoyo práctico con trámites, incluidas citas y documentación relacionadas con el NIE, y con la comunicación con suministradores como Iberdrola. Es acompañamiento práctico, sin representación oficial ni garantía de resultados.",
         },
         {
           q: "¿Ofrece cuidado de mascotas?",
