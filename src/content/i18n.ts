@@ -659,11 +659,11 @@ export const dictionaries = {
         },
         {
           q: "Können Sie Renovierungsarbeiten begleiten?",
-          a: "Er kann vor Ort kontrollieren, den Fortschritt prüfen, Fotos und Videos senden und Kosten analysieren. Fachgewerke werden von den jeweiligen Fachbetrieben ausgeführt.",
+          a: "Wir können vor Ort kontrollieren, den Fortschritt prüfen, Fotos und Videos senden und Kosten analysieren. Fachgewerke werden von den jeweiligen Fachbetrieben ausgeführt.",
         },
         {
           q: "Helfen Sie bei Behördengängen und Versorgern?",
-          a: "Er bietet praktische Unterstützung bei Formalitäten, einschließlich Terminen und Unterlagen rund um die NIE, sowie bei der Kommunikation mit Anbietern wie Iberdrola. Das ist praktische Hilfe – ohne offizielle Vertretung oder Ergebnisgarantie.",
+          a: "Wir bieten praktische Unterstützung bei Formalitäten, einschließlich Terminen und Unterlagen rund um die NIE, sowie bei der Kommunikation mit Anbietern wie Iberdrola. Das ist praktische Hilfe – ohne offizielle Vertretung oder Ergebnisgarantie.",
         },
         {
           q: "Bieten Sie Tierbetreuung an?",
