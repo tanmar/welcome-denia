@@ -17,7 +17,7 @@ import {
 
 const title = "WelcomeDenia — Cuidado de propiedades en Dénia y la Marina Alta";
 const description =
-  "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe, Altea y Benidorm. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.";
+  "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe y Altea. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,7 +38,7 @@ export const Route = createFileRoute("/")({
           name: "WelcomeDenia — Property Care & Local Assistance",
           description,
           url: "https://welcomedenia.com",
-          areaServed: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
+          areaServed: ["Dénia", "Marina Alta", "Calpe", "Altea"],
           knowsLanguage: ["es", "en", "de"],
           address: { "@type": "PostalAddress", addressLocality: "Dénia", addressCountry: "ES" },
         }),

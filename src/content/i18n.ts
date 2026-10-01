@@ -9,7 +9,7 @@ export const dictionaries = {
     meta: {
       title: "WelcomeDenia — Cuidado de propiedades en Dénia y la Marina Alta",
       description:
-        "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe, Altea y Benidorm. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.",
+        "Cuidado de casas y asistencia local en Dénia, Marina Alta, Calpe y Altea. Revisiones, llaves, mantenimiento y ayuda práctica, con comunicación clara en español, inglés y alemán.",
     },
     nav: {
       services: "Servicios",
@@ -30,7 +30,7 @@ export const dictionaries = {
       primary: "Contactar",
       secondary: "Ver servicios",
       trust: [
-        "10 años de experiencia",
+        "Años de experiencia",
         "Español, inglés y alemán a nivel nativo",
         "Atención personal",
         "Actualizaciones con fotos y vídeo",
@@ -86,12 +86,12 @@ export const dictionaries = {
       eyebrow: "Sobre nosotros",
       title: "Un contacto de confianza, no un número de expediente",
       paragraphs: [
-        "«Llevamos diez años trabajando en el mantenimiento de viviendas en Dénia. Conocemos las casas de aquí: el salitre, las persianas, las piscinas en invierno y lo que se estropea cuando nadie mira.»",
+        "«Llevamos años trabajando en el mantenimiento de viviendas en Dénia. Conocemos las casas de aquí: el salitre, las persianas, las piscinas en invierno y lo que se estropea cuando nadie mira.»",
         "«También acompañamos a residentes internacionales en la Marina Alta: orientación práctica, trámites y comunicación entre culturas. Hablamos español, inglés y alemán a nivel nativo, así que hablamos de su casa sin intermediarios.»",
         "«Trabajamos de forma ordenada y respondemos personalmente. Usted tiene un único interlocutor que entiende tanto la vivienda como lo que usted necesita.»",
       ],
       facts: [
-        "10 años de experiencia",
+        "Años de experiencia",
         "Conocimiento local de Dénia",
         "Trabajo fiable y organizado",
         "Experiencia con residentes internacionales",
@@ -150,7 +150,7 @@ export const dictionaries = {
       eyebrow: "Zona de servicio",
       title: "Con base en Dénia, cerca de su casa",
       lead: "Trabajamos en Dénia y la Marina Alta, además de localidades costeras cercanas. Si su vivienda está cerca de esta zona, pregúntenos directamente.",
-      places: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
+      places: ["Dénia", "Marina Alta", "Calpe", "Altea"],
       ask: "¿Su localidad no aparece? Pregunte y le diremos con sinceridad si podemos atenderle.",
       imageAlt: "Costa de la Marina Alta con el Montgó al fondo",
     },
@@ -198,7 +198,7 @@ export const dictionaries = {
         },
         {
           q: "¿Qué zonas cubre?",
-          a: "Dénia y la Marina Alta, además de localidades cercanas como Calpe, Altea y Benidorm. Pregunte por su localidad concreta.",
+          a: "Dénia y la Marina Alta, además de localidades cercanas como Calpe y Altea. Pregunte por su localidad concreta.",
         },
         {
           q: "¿Cómo puedo hablar de precios?",
@@ -259,7 +259,7 @@ export const dictionaries = {
     meta: {
       title: "WelcomeDenia — Property care in Dénia and the Marina Alta",
       description:
-        "Property care and local assistance in Dénia, Marina Alta, Calpe, Altea and Benidorm. Checks, keyholding, maintenance and practical help, with clear updates in Spanish, English or German.",
+        "Property care and local assistance in Dénia, Marina Alta, Calpe and Altea. Checks, keyholding, maintenance and practical help, with clear updates in Spanish, English or German.",
     },
     nav: {
       services: "Services",
@@ -280,7 +280,7 @@ export const dictionaries = {
       primary: "Get in touch",
       secondary: "Explore services",
       trust: [
-        "10 years of experience",
+        "Years of experience",
         "Native-level Spanish, English and German",
         "Personal attention",
         "Photo and video updates",
@@ -336,12 +336,12 @@ export const dictionaries = {
       eyebrow: "About us",
       title: "A contact you can trust, not a case number",
       paragraphs: [
-        "\"We've spent ten years maintaining homes in Dénia. We know the houses in this area: the salt air, the shutters, the pools in winter, and what quietly goes wrong when nobody is looking.\"",
+        "\"We've spent years maintaining homes in Dénia. We know the houses in this area: the salt air, the shutters, the pools in winter, and what quietly goes wrong when nobody is looking.\"",
         "\"We also help international residents in the Marina Alta with practical guidance, paperwork and communication between cultures. We speak Spanish, English and German at native level, so we can talk about your home directly.\"",
         "\"We work in an organised way and answer personally. You have one point of contact who understands both the property and what you need.\"",
       ],
       facts: [
-        "10 years of experience",
+        "Years of experience",
         "Deep local knowledge of Dénia",
         "Reliable, organised work",
         "Experience supporting international residents",
@@ -395,7 +395,7 @@ export const dictionaries = {
       eyebrow: "Service area",
       title: "Based in Dénia, close to your home",
       lead: "We work in Dénia and the Marina Alta, plus nearby coastal locations. If your property is close to this area, just ask.",
-      places: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
+      places: ["Dénia", "Marina Alta", "Calpe", "Altea"],
       ask: "Not on the list? Ask, and we'll tell you honestly whether we can help.",
       imageAlt: "Marina Alta coastline with the Montgó in the distance",
     },
@@ -437,7 +437,7 @@ export const dictionaries = {
         { q: "Do you offer pet care?", a: "Yes, with the scope agreed individually in each case." },
         {
           q: "Which areas do you cover?",
-          a: "Dénia and the Marina Alta, plus nearby locations such as Calpe, Altea and Benidorm. Ask about your specific location.",
+          a: "Dénia and the Marina Alta, plus nearby locations such as Calpe and Altea. Ask about your specific location.",
         },
         {
           q: "How can I discuss pricing?",
@@ -497,7 +497,7 @@ export const dictionaries = {
     meta: {
       title: "WelcomeDenia — Immobilienbetreuung in Dénia und der Marina Alta",
       description:
-        "Hausbetreuung und Alltagshilfe in Dénia, Marina Alta, Calpe, Altea und Benidorm. Kontrollen, Schlüsselservice, Instandhaltung und praktische Unterstützung – mit klarer Kommunikation auf Spanisch, Englisch und Deutsch.",
+        "Hausbetreuung und Alltagshilfe in Dénia, Marina Alta, Calpe und Altea. Kontrollen, Schlüsselservice, Instandhaltung und praktische Unterstützung – mit klarer Kommunikation auf Spanisch, Englisch und Deutsch.",
     },
     nav: {
       services: "Leistungen",
@@ -518,7 +518,7 @@ export const dictionaries = {
       primary: "Kontakt aufnehmen",
       secondary: "Leistungen ansehen",
       trust: [
-        "10 Jahre Erfahrung",
+        "Jahrelange Erfahrung",
         "Spanisch, Englisch und Deutsch auf Muttersprachniveau",
         "Persönliche Betreuung",
         "Updates mit Fotos und Video",
@@ -574,12 +574,12 @@ export const dictionaries = {
       eyebrow: "Über uns",
       title: "Ein Ansprechpartner, dem Sie vertrauen können – keine Aktennummer",
       paragraphs: [
-        "„Seit zehn Jahren kümmern wir uns um die Instandhaltung von Häusern in Dénia. Wir kennen die Häuser dieser Region: die salzige Luft, die Fensterläden, die Pools im Winter – und das, was still kaputtgeht, wenn niemand hinsieht.“",
+        "„Seit Jahren kümmern wir uns um die Instandhaltung von Häusern in Dénia. Wir kennen die Häuser dieser Region: die salzige Luft, die Fensterläden, die Pools im Winter – und das, was still kaputtgeht, wenn niemand hinsieht.“",
         "„Außerdem begleiten wir internationale Residenten in der Marina Alta praktisch: Orientierung, Formalitäten und Verständigung zwischen den Kulturen. Wir sprechen Spanisch, Englisch und Deutsch auf Muttersprachniveau – wir sprechen also direkt über Ihr Haus.“",
         "„Wir arbeiten strukturiert und antworten persönlich. Sie haben einen Ansprechpartner, der sowohl die Immobilie als auch Ihre Anliegen versteht.“",
       ],
       facts: [
-        "10 Jahre Erfahrung",
+        "Jahrelange Erfahrung",
         "Fundierte Ortskenntnis in Dénia",
         "Zuverlässige, organisierte Arbeit",
         "Erfahrung mit internationalen Residenten",
@@ -633,7 +633,7 @@ export const dictionaries = {
       eyebrow: "Einsatzgebiet",
       title: "Basis in Dénia, nah an Ihrem Haus",
       lead: "Wir arbeiten in Dénia und der Marina Alta sowie in nahegelegenen Küstenorten. Liegt Ihr Haus in der Nähe, fragen Sie einfach nach.",
-      places: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
+      places: ["Dénia", "Marina Alta", "Calpe", "Altea"],
       ask: "Ihr Ort ist nicht dabei? Fragen Sie nach – wir sagen Ihnen ehrlich, ob wir helfen können.",
       imageAlt: "Küste der Marina Alta mit dem Montgó im Hintergrund",
     },
@@ -681,7 +681,7 @@ export const dictionaries = {
         },
         {
           q: "Welche Gebiete decken Sie ab?",
-          a: "Dénia und die Marina Alta sowie nahegelegene Orte wie Calpe, Altea und Benidorm. Fragen Sie gern nach Ihrem Ort.",
+          a: "Dénia und die Marina Alta sowie nahegelegene Orte wie Calpe und Altea. Fragen Sie gern nach Ihrem Ort.",
         },
         {
           q: "Wie kann ich über Preise sprechen?",
