@@ -423,11 +423,11 @@ export const dictionaries = {
         },
         {
           q: "Can you supervise renovation work?",
-          a: "He can provide on-site oversight, progress checks, photo and video updates and cost analysis. Specialist trades are carried out by the relevant professionals.",
+          a: "We provide on-site oversight, progress checks, photo and video updates and cost analysis. Specialist trades are carried out by the relevant professionals.",
         },
         {
           q: "Can you help with local paperwork and utilities?",
-          a: "He offers practical support with procedures, including NIE-related appointments and paperwork, and with communicating with providers such as Iberdrola. This is practical assistance, without official representation or guaranteed outcomes.",
+          a: "We offer practical support with procedures, including NIE-related appointments and paperwork, and with communicating with providers such as Iberdrola. This is practical assistance, without official representation or guaranteed outcomes.",
         },
         { q: "Do you offer pet care?", a: "Yes, with the scope agreed individually in each case." },
         {
