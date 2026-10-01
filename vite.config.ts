@@ -6,10 +6,21 @@
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
+// GitHub Pages build: set GITHUB_PAGES_BASE (e.g. "/welcome-denia/") to emit a fully
+// prerendered static site under that base path. Unset (Lovable, local dev) = unchanged behavior.
+const pagesBase = process.env.GITHUB_PAGES_BASE;
+
 export default defineConfig({
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
+    ...(pagesBase && {
+      prerender: { enabled: true, crawlLinks: true, autoSubfolderIndex: true },
+    }),
   },
+  ...(pagesBase && {
+    nitro: false,
+    vite: { base: pagesBase },
+  }),
 });
