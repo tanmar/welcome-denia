@@ -37,6 +37,7 @@ export const Route = createFileRoute("/")({
           "@type": "LocalBusiness",
           name: "WelcomeDenia — Property Care & Local Assistance",
           description,
+          url: "https://welcomedenia.com",
           areaServed: ["Dénia", "Marina Alta", "Calpe", "Altea", "Benidorm"],
           knowsLanguage: ["es", "en", "de"],
           address: { "@type": "PostalAddress", addressLocality: "Dénia", addressCountry: "ES" },

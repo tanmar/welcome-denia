@@ -186,11 +186,11 @@ export const dictionaries = {
         },
         {
           q: "¿Puede supervisar una reforma?",
-          a: "Puede hacer seguimiento en obra, controlar el avance, enviar fotos y vídeo y analizar los costes. La ejecución especializada corre a cargo de los profesionales correspondientes.",
+          a: "Hacemos seguimiento en obra, controlamos el avance, enviamos fotos y vídeo y analizamos los costes. La ejecución especializada corre a cargo de los profesionales correspondientes.",
         },
         {
           q: "¿Ayuda con trámites y suministros?",
-          a: "Ofrece apoyo práctico con trámites, incluidas citas y documentación relacionadas con el NIE, y con la comunicación con suministradores como Iberdrola. Es acompañamiento práctico, sin representación oficial ni garantía de resultados.",
+          a: "Ofrecemos apoyo práctico con trámites, incluidas citas y documentación relacionadas con el NIE, y con la comunicación con suministradores como Iberdrola. Es acompañamiento práctico, sin representación oficial ni garantía de resultados.",
         },
         {
           q: "¿Ofrece cuidado de mascotas?",
@@ -423,11 +423,11 @@ export const dictionaries = {
         },
         {
           q: "Can you supervise renovation work?",
-          a: "He can provide on-site oversight, progress checks, photo and video updates and cost analysis. Specialist trades are carried out by the relevant professionals.",
+          a: "We provide on-site oversight, progress checks, photo and video updates and cost analysis. Specialist trades are carried out by the relevant professionals.",
         },
         {
           q: "Can you help with local paperwork and utilities?",
-          a: "He offers practical support with procedures, including NIE-related appointments and paperwork, and with communicating with providers such as Iberdrola. This is practical assistance, without official representation or guaranteed outcomes.",
+          a: "We offer practical support with procedures, including NIE-related appointments and paperwork, and with communicating with providers such as Iberdrola. This is practical assistance, without official representation or guaranteed outcomes.",
         },
         { q: "Do you offer pet care?", a: "Yes, with the scope agreed individually in each case." },
         {
@@ -659,11 +659,11 @@ export const dictionaries = {
         },
         {
           q: "Können Sie Renovierungsarbeiten begleiten?",
-          a: "Er kann vor Ort kontrollieren, den Fortschritt prüfen, Fotos und Videos senden und Kosten analysieren. Fachgewerke werden von den jeweiligen Fachbetrieben ausgeführt.",
+          a: "Wir können vor Ort kontrollieren, den Fortschritt prüfen, Fotos und Videos senden und Kosten analysieren. Fachgewerke werden von den jeweiligen Fachbetrieben ausgeführt.",
         },
         {
           q: "Helfen Sie bei Behördengängen und Versorgern?",
-          a: "Er bietet praktische Unterstützung bei Formalitäten, einschließlich Terminen und Unterlagen rund um die NIE, sowie bei der Kommunikation mit Anbietern wie Iberdrola. Das ist praktische Hilfe – ohne offizielle Vertretung oder Ergebnisgarantie.",
+          a: "Wir bieten praktische Unterstützung bei Formalitäten, einschließlich Terminen und Unterlagen rund um die NIE, sowie bei der Kommunikation mit Anbietern wie Iberdrola. Das ist praktische Hilfe – ohne offizielle Vertretung oder Ergebnisgarantie.",
         },
         {
           q: "Bieten Sie Tierbetreuung an?",
