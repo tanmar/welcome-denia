@@ -236,6 +236,11 @@ export const dictionaries = {
         invalidContact: "Indique un correo electrónico o un teléfono válidos",
         notConfigured:
           "El envío del formulario aún no está configurado. Por ahora, escríbanos por WhatsApp o correo electrónico.",
+        sending: "Enviando…",
+        sent: "Gracias, hemos recibido su mensaje. Le responderemos lo antes posible.",
+        sendError:
+          "No se pudo enviar el mensaje. Inténtelo de nuevo o escríbanos por WhatsApp o correo electrónico.",
+        subject: "Nueva consulta desde la web",
       },
     },
     footer: {
@@ -470,6 +475,11 @@ export const dictionaries = {
         invalidContact: "Please enter a valid email address or phone number",
         notConfigured:
           "Form delivery is not configured yet. For now, please reach us by WhatsApp or email.",
+        sending: "Sending…",
+        sent: "Thank you, we've received your message and will reply as soon as possible.",
+        sendError:
+          "Your message could not be sent. Please try again, or reach us by WhatsApp or email.",
+        subject: "New enquiry from the website",
       },
     },
     footer: {
@@ -709,6 +719,11 @@ export const dictionaries = {
         invalidContact: "Bitte geben Sie eine gültige E-Mail-Adresse oder Telefonnummer an",
         notConfigured:
           "Der Formularversand ist noch nicht eingerichtet. Bitte erreichen Sie uns vorerst per WhatsApp oder E-Mail.",
+        sending: "Wird gesendet…",
+        sent: "Vielen Dank, wir haben Ihre Nachricht erhalten und melden uns so bald wie möglich.",
+        sendError:
+          "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie uns per WhatsApp oder E-Mail.",
+        subject: "Neue Anfrage über die Website",
       },
     },
     footer: {

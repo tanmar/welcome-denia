@@ -13,6 +13,8 @@ export const site = {
   phone: "", // e.g. "+34 600 000 000"
   whatsapp: "", // digits only, e.g. "34600000000"
   email: "", // e.g. "hola@ejemplo.com"
+  // Formspree form ID (the part after /f/ in the form endpoint). Empty = form not sent.
+  formspreeId: "", // e.g. "xyzabcde"
   base: "Dénia, Alicante",
   // Flip to true once verified reviews exist.
   showTestimonials: false,
@@ -23,7 +25,9 @@ export const site = {
 const phone: string = site.phone;
 const whatsapp: string = site.whatsapp;
 const email: string = site.email;
+const formspreeId: string = site.formspreeId;
 
 export const phoneHref = phone ? `tel:${phone.replace(/\s/g, "")}` : undefined;
 export const waHref = whatsapp ? `https://wa.me/${whatsapp}` : undefined;
 export const mailHref = email ? `mailto:${email}` : undefined;
+export const formEndpoint = formspreeId ? `https://formspree.io/f/${formspreeId}` : undefined;

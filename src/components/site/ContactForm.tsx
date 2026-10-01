@@ -1,21 +1,27 @@
 import { useState, type FormEvent } from "react";
-import { AlertCircle } from "lucide-react";
+import { AlertCircle, CheckCircle2 } from "lucide-react";
 import { useLang } from "@/content/lang";
+import { formEndpoint } from "@/content/site";
 
 type Errors = Partial<Record<"name" | "contact" | "message", string>>;
+type Status = "idle" | "sending" | "sent" | "error" | "unconfigured";
 
 const field =
   "min-h-11 w-full rounded-xl border border-input bg-card px-4 py-2.5 text-base text-foreground placeholder:text-muted-foreground/70 focus:border-accent";
+
+const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/;
+const PHONE_RE = /^[+\d][\d\s()-]{6,}$/;
 
 export function ContactForm() {
   const { t } = useLang();
   const f = t.contact.form;
   const [errors, setErrors] = useState<Errors>({});
-  const [notice, setNotice] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const data = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const data = new FormData(form);
     const next: Errors = {};
     const name = String(data.get("name") ?? "").trim();
     const contact = String(data.get("contact") ?? "").trim();
@@ -23,13 +29,31 @@ export function ContactForm() {
 
     if (!name) next.name = f.required;
     if (!contact) next.contact = f.required;
-    else if (!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(contact) && !/^[+\d][\d\s()-]{6,}$/.test(contact))
-      next.contact = f.invalidContact;
+    else if (!EMAIL_RE.test(contact) && !PHONE_RE.test(contact)) next.contact = f.invalidContact;
     if (!message) next.message = f.required;
 
     setErrors(next);
-    // No form backend is configured — never simulate a successful send.
-    setNotice(Object.keys(next).length === 0);
+    if (Object.keys(next).length > 0) return setStatus("idle");
+    // No form backend configured — never simulate a successful send.
+    if (!formEndpoint) return setStatus("unconfigured");
+
+    data.set("_subject", `${f.subject}: ${name}`);
+    if (EMAIL_RE.test(contact)) data.set("_replyto", contact);
+
+    setStatus("sending");
+    try {
+      const res = await fetch(formEndpoint, {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
+      if (!res.ok) throw new Error(`Formspree responded ${res.status}`);
+      form.reset();
+      setStatus("sent");
+    } catch (err) {
+      console.error("Contact form submission failed", err);
+      setStatus("error");
+    }
   }
 
   return (
@@ -41,8 +65,8 @@ export function ContactForm() {
           <input id="name" name="name" autoComplete="name" className={field} required />
         </Field>
 
-        <Field id="contact" label={f.contact} error={errors.contact}>
-          <input id="contact" name="contact" autoComplete="email" className={field} required />
+        <Field id="contact-info" label={f.contact} error={errors.contact}>
+          <input id="contact-info" name="contact" autoComplete="email" className={field} required />
         </Field>
 
         <Field id="location" label={`${f.location} (${f.optional})`}>
@@ -72,28 +96,63 @@ export function ContactForm() {
 
         <div className="sm:col-span-2">
           <Field id="message" label={f.message} error={errors.message}>
-            <textarea id="message" name="message" rows={5} className={`${field} min-h-32`} required />
+            <textarea
+              id="message"
+              name="message"
+              rows={5}
+              className={`${field} min-h-32`}
+              required
+            />
           </Field>
         </div>
       </div>
 
+      {/* Honeypot: Formspree drops submissions where this is filled in. */}
+      <input
+        type="text"
+        name="_gotcha"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden
+        className="hidden"
+      />
+
       <button
         type="submit"
-        className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-primary px-6 text-base font-semibold text-primary-foreground transition-opacity hover:opacity-90 sm:w-auto"
+        disabled={status === "sending"}
+        className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-primary px-6 text-base font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-wait disabled:opacity-60 sm:w-auto"
       >
-        {f.submit}
+        {status === "sending" ? f.sending : f.submit}
       </button>
 
-      {notice && (
-        <p
-          role="status"
-          className="mt-4 flex items-start gap-2 rounded-xl border border-border bg-secondary/70 p-4 text-sm text-foreground"
-        >
-          <AlertCircle className="mt-0.5 size-4 shrink-0 text-terracotta" aria-hidden />
-          {f.notConfigured}
-        </p>
-      )}
+      <StatusNotice status={status} f={f} />
     </form>
+  );
+}
+
+function StatusNotice({
+  status,
+  f,
+}: {
+  status: Status;
+  f: { sent: string; sendError: string; notConfigured: string };
+}) {
+  if (status === "idle" || status === "sending") return null;
+  const isSent = status === "sent";
+  const text = isSent ? f.sent : status === "error" ? f.sendError : f.notConfigured;
+  const Icon = isSent ? CheckCircle2 : AlertCircle;
+
+  return (
+    <p
+      role="status"
+      className="mt-4 flex items-start gap-2 rounded-xl border border-border bg-secondary/70 p-4 text-sm text-foreground"
+    >
+      <Icon
+        className={`mt-0.5 size-4 shrink-0 ${isSent ? "text-accent" : "text-terracotta"}`}
+        aria-hidden
+      />
+      {text}
+    </p>
   );
 }
 
