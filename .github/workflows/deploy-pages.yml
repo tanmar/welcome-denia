@@ -32,7 +32,7 @@ jobs:
       - name: Build static site
         run: bun run build
         env:
-          GITHUB_PAGES_BASE: /${{ github.event.repository.name }}/
+          GITHUB_PAGES_BASE: /
 
       - uses: actions/upload-pages-artifact@v3
         with:
