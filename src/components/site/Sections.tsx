@@ -355,7 +355,7 @@ export function Faq() {
 export function Contact() {
   const { t } = useLang();
   const channels = [
-    { icon: MessageCircle, label: t.contact.whatsapp, value: site.whatsapp, href: waHref },
+    { icon: MessageCircle, label: t.contact.whatsapp, value: site.phone, href: waHref },
     { icon: Phone, label: t.contact.phone, value: site.phone, href: phoneHref },
     { icon: Mail, label: t.contact.email, value: site.email, href: mailHref },
   ];

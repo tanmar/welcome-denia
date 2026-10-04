@@ -10,9 +10,9 @@ export const site = {
     de: "Immobilienbetreuung & Alltagshilfe",
   },
   // TODO: replace with real details. Empty string = shown as placeholder.
-  phone: "", // e.g. "+34 600 000 000"
-  whatsapp: "", // digits only, e.g. "34600000000"
-  email: "", // e.g. "hola@ejemplo.com"
+  phone: "+34 634 463 620",
+  whatsapp: "34634463620", // digits only
+  email: "Gerard_asesorcomercial@hotmail.com",
   // Formspree form ID (the part after /f/ in the form endpoint). Empty = form not sent.
   formspreeId: "", // e.g. "xyzabcde"
   base: "Dénia, Alicante",
