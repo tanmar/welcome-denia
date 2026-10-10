@@ -12,7 +12,7 @@ export const site = {
   // TODO: replace with real details. Empty string = shown as placeholder.
   phone: "+34 634 463 620",
   whatsapp: "34634463620", // digits only
-  email: "Gerard_asesorcomercial@hotmail.com",
+  email: "welcomedenia@hotmail.com",
   // Formspree form ID (the part after /f/ in the form endpoint). Empty = form not sent.
   formspreeId: "", // e.g. "xyzabcde"
   base: "Dénia, Alicante",

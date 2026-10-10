@@ -71,7 +71,7 @@ export const dictionaries = {
           tag: "Complementario",
           title: "Asistencia local y cotidiana",
           items: [
-            "Apoyo práctico con trámites administrativos, incluidas citas y papeles relacionados con el NIE",
+            "Apoyo práctico con trámites administrativos, incluidas citas y documentación",
             "Ayuda en la comunicación con suministradores como Iberdrola",
             "Apoyo con gestiones locales y barreras de idioma",
             "Cuidado de mascotas, con el alcance acordado individualmente",
@@ -190,7 +190,7 @@ export const dictionaries = {
         },
         {
           q: "¿Ayuda con trámites y suministros?",
-          a: "Ofrecemos apoyo práctico con trámites, incluidas citas y documentación relacionadas con el NIE, y con la comunicación con suministradores como Iberdrola. Es acompañamiento práctico, sin representación oficial ni garantía de resultados.",
+          a: "Ofrecemos apoyo práctico con trámites, incluidas citas y documentación, y con la comunicación con suministradores como Iberdrola. Es acompañamiento práctico, sin representación oficial ni garantía de resultados.",
         },
         {
           q: "¿Ofrece cuidado de mascotas?",
@@ -321,7 +321,7 @@ export const dictionaries = {
           tag: "Complementary",
           title: "Local and everyday assistance",
           items: [
-            "Practical support with administrative procedures, including NIE-related appointments and paperwork",
+            "Practical support with administrative procedures, including appointments and paperwork",
             "Help communicating with utility providers such as Iberdrola",
             "Support with local arrangements and language barriers",
             "Pet care, with the scope agreed individually",
@@ -432,7 +432,7 @@ export const dictionaries = {
         },
         {
           q: "Can you help with local paperwork and utilities?",
-          a: "We offer practical support with procedures, including NIE-related appointments and paperwork, and with communicating with providers such as Iberdrola. This is practical assistance, without official representation or guaranteed outcomes.",
+          a: "We offer practical support with procedures, including appointments and paperwork, and with communicating with providers such as Iberdrola. This is practical assistance, without official representation or guaranteed outcomes.",
         },
         { q: "Do you offer pet care?", a: "Yes, with the scope agreed individually in each case." },
         {
@@ -559,7 +559,7 @@ export const dictionaries = {
           tag: "Ergänzend",
           title: "Hilfe im Alltag vor Ort",
           items: [
-            "Praktische Unterstützung bei Behördengängen, einschließlich Terminen und Unterlagen rund um die NIE",
+            "Praktische Unterstützung bei Behördengängen, einschließlich Terminen und Unterlagen",
             "Hilfe bei der Kommunikation mit Versorgern wie Iberdrola",
             "Unterstützung bei Anliegen vor Ort und bei Sprachbarrieren",
             "Tierbetreuung, Umfang individuell abgesprochen",
@@ -673,7 +673,7 @@ export const dictionaries = {
         },
         {
           q: "Helfen Sie bei Behördengängen und Versorgern?",
-          a: "Wir bieten praktische Unterstützung bei Formalitäten, einschließlich Terminen und Unterlagen rund um die NIE, sowie bei der Kommunikation mit Anbietern wie Iberdrola. Das ist praktische Hilfe – ohne offizielle Vertretung oder Ergebnisgarantie.",
+          a: "Wir bieten praktische Unterstützung bei Formalitäten, einschließlich Terminen und Unterlagen, sowie bei der Kommunikation mit Anbietern wie Iberdrola. Das ist praktische Hilfe – ohne offizielle Vertretung oder Ergebnisgarantie.",
         },
         {
           q: "Bieten Sie Tierbetreuung an?",

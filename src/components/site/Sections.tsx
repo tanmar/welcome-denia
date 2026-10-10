@@ -20,6 +20,7 @@ import { ContactForm } from "./ContactForm";
 import heroImg from "@/assets/hero-villa.jpg";
 import poolImg from "@/assets/pool-garden.jpg";
 import detailImg from "@/assets/home-detail.jpg";
+import logoMark from "@/assets/logo-mark.png";
 import coastImg from "@/assets/coast-area.jpg";
 
 const section = "mx-auto w-full max-w-6xl px-5 py-20 sm:px-8 sm:py-28";
@@ -70,8 +71,8 @@ export function Hero() {
             className="aspect-4/3 w-full rounded-3xl object-cover shadow-[var(--shadow-lift)]"
           />
           <div className="glass absolute -bottom-6 left-4 hidden items-center gap-3 rounded-2xl p-3 pr-5 sm:flex">
-            <div className="flex size-14 items-center justify-center rounded-xl border border-dashed border-border bg-secondary text-muted-foreground">
-              <UserRound className="size-6" aria-hidden />
+            <div className="flex size-14 items-center justify-center rounded-xl bg-secondary">
+              <img src={logoMark} alt="" width={40} height={40} className="size-10" />
             </div>
             <div className="max-w-44">
               <p className="text-sm font-semibold text-primary">{site.brand}</p>
@@ -412,6 +413,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div className="max-w-sm">
+            <img src={logoMark} alt="" width={56} height={56} className="mb-3 size-14" />
             <p className="font-display text-lg font-semibold text-primary">{site.brand}</p>
             <p className="text-xs uppercase tracking-[0.16em] text-muted-foreground">
               {site.brandSuffix[lang]}

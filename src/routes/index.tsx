@@ -27,7 +27,9 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "https://welcomedenia.com/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "https://welcomedenia.com/og-image.jpg" },
     ],
     scripts: [
       {
@@ -38,6 +40,8 @@ export const Route = createFileRoute("/")({
           name: "WelcomeDenia — Property Care & Local Assistance",
           description,
           url: "https://welcomedenia.com",
+          logo: "https://welcomedenia.com/icon-192.png",
+          image: "https://welcomedenia.com/og-image.jpg",
           areaServed: ["Dénia", "Marina Alta", "Calpe", "Altea"],
           knowsLanguage: ["es", "en", "de"],
           address: { "@type": "PostalAddress", addressLocality: "Dénia", addressCountry: "ES" },

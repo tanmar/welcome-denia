@@ -3,8 +3,12 @@ import { Menu, X } from "lucide-react";
 import { useLang } from "@/content/lang";
 import { LANGS, type Lang } from "@/content/i18n";
 import { site } from "@/content/site";
+import logoMark from "@/assets/logo-mark.png";
+import { Flag } from "./Flag";
 
 const LANG_LABEL: Record<Lang, string> = { es: "ES", en: "EN", de: "DE" };
+// Endonyms, so each button reads correctly whatever the current UI language.
+const LANG_NAME: Record<Lang, string> = { es: "Español", en: "English", de: "Deutsch" };
 
 export function Nav() {
   const { lang, setLang, t } = useLang();
@@ -29,16 +33,26 @@ export function Nav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 sm:px-5 sm:pt-5">
       <div
-        className={`glass mx-auto flex max-w-6xl items-center gap-3 rounded-2xl px-4 py-3 transition-shadow sm:px-6 ${
+        className={`glass mx-auto flex max-w-6xl items-center gap-2 rounded-2xl px-3 py-3 sm:gap-3 transition-shadow sm:px-6 ${
           scrolled ? "shadow-lg" : ""
         }`}
       >
-        <a href="#top" className="mr-auto flex flex-col leading-tight">
-          <span className="font-display text-lg font-semibold tracking-tight text-primary">
-            {site.brand}
-          </span>
-          <span className="hidden text-[11px] uppercase tracking-[0.16em] text-muted-foreground sm:block">
-            {site.brandSuffix[lang]}
+        <a href="#top" className="mr-auto flex items-center gap-2.5 leading-tight">
+          <img
+            src={logoMark}
+            alt=""
+            width={40}
+            height={40}
+            className="size-9 shrink-0 sm:size-10"
+          />
+          {/* Narrow phones: logo mark only; the name stays available to screen readers. */}
+          <span className="flex flex-col max-[399px]:sr-only">
+            <span className="font-display text-lg font-semibold tracking-tight text-primary">
+              {site.brand}
+            </span>
+            <span className="hidden text-[11px] uppercase tracking-[0.16em] text-muted-foreground sm:block">
+              {site.brandSuffix[lang]}
+            </span>
           </span>
         </a>
 
@@ -65,14 +79,19 @@ export function Nav() {
               type="button"
               onClick={() => setLang(l)}
               aria-pressed={lang === l}
+              aria-label={LANG_NAME[l]}
+              title={LANG_NAME[l]}
               lang={l}
-              className={`min-h-9 min-w-10 rounded-full px-2.5 text-xs font-semibold transition-colors ${
+              className={`inline-flex min-h-9 min-w-8 items-center justify-center gap-1.5 rounded-full px-1.5 text-xs font-semibold transition-colors sm:px-2.5 ${
                 lang === l
                   ? "bg-primary text-primary-foreground"
                   : "text-muted-foreground hover:text-primary"
               }`}
             >
-              {LANG_LABEL[l]}
+              <Flag lang={l} className="size-5" />
+              <span aria-hidden className="hidden sm:inline">
+                {LANG_LABEL[l]}
+              </span>
             </button>
           ))}
         </div>
@@ -90,7 +109,7 @@ export function Nav() {
           aria-expanded={open}
           aria-controls="mobile-nav"
           aria-label={open ? t.nav.close : t.nav.menu}
-          className="inline-flex size-11 items-center justify-center rounded-full border border-border text-primary lg:hidden"
+          className="inline-flex size-10 items-center justify-center rounded-full border border-border text-primary sm:size-11 lg:hidden"
         >
           {open ? <X className="size-5" /> : <Menu className="size-5" />}
         </button>
